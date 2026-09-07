@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --text-color: #333;
+            --bg-color: #f4f7f6;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        header {
+            background: var(--primary-color);
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 8px 8px 0 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .section {
+            background: #fff;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 0 0 8px 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        h2 {
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+            color: var(--primary-color);
+            margin-top: 0;
+        }
+        .item {
+            margin-bottom: 25px;
+        }
+        .item:last-child {
+            margin-bottom: 0;
+        }
+        .item h3 {
+            margin: 0 0 5px;
+            color: var(--primary-color);
+        }
+        .item .date {
+            font-style: italic;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .contact-list {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-list li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>[Your Name]</h1>
+            <p>Biomedical Engineering Professional</p>
+        </header>
+
+        <div class="section" id="about">
+            <h2>About Me</h2>
+            <p>I am a Biomedical Engineering student bridging the gap between mechanical design and clinical applications. With hands-on experience in wearable robotics, clinical environments, and hardware integration, I specialize in designing and assessing technologies that improve human health. I am currently a candidate for the Fundamentals of Engineering (FE) certification.</p>
+        </div>
+
+        <div class="section" id="experience">
+            <h2>Clinical & Professional Experience</h2>
+            <div class="item">
+                <h3>Clinical Shadowing Program — Endocrine Clinic</h3>
+                <div class="date">June 2026 – July 2026</div>
+                <ul>
+                    <li>Gained hands-on exposure to fast-paced clinical environments and direct patient interactions.</li>
+                    <li>Shadowed an attending physician to observe specialized endocrine treatments and clinical workflows.</li>
+                    <li>Developed a practical understanding of how diagnostic medical devices are utilized in day-to-day patient care.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section" id="projects">
+            <h2>Engineering Projects & Technical Skills</h2>
+            <div class="item">
+                <h3>Wearable Mechatronic Wing Harness System</h3>
+                <div class="date">Engineering Capstone Project (2025 – 2026)</div>
+                <ul>
+                    <li>Designed and prototyped a complex wearable robotics system.</li>
+                    <li>Developed comprehensive design criteria, technical performance metrics, and structural material selections.</li>
+                    <li>Engineered and implemented risk assessment matrices to ensure safety and mechanical functionality.</li>
+                </ul>
+            </div>
+            <div class="item">
+                <h3>Hardware Integration & System Configuration</h3>
+                <div class="date">Technical Projects</div>
+                <ul>
+                    <li>Assembled and configured custom computer hardware, upgrading systems with liquid all-in-one (AIO) thermal cooling solutions.</li>
+                    <li>Performed motherboard diagnostic troubleshooting and integrated high-fidelity external audio interfaces (DAC setups).</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section" id="contact">
+            <h2>Contact & Links</h2>
+            <p>Let's connect. Feel free to reach out via email or view my full professional network.</p>
+            <ul class="contact-list">
+                <li>✉️ Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+                <li>💼 LinkedIn: <a href="#">[Insert Your LinkedIn URL]</a></li>
+                <li>📄 Resume: <a href="#">[Insert Link to PDF Resume]</a></li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 [Your Name]. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
