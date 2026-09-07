@@ -98,15 +98,36 @@
             color: #7f8c8d;
             font-size: 0.9rem;
         }
+/* Profile Picture Styling */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image perfectly round */
+    object-fit: cover; /* Prevents the image from squishing */
+    border: 3px solid #fff; /* Adds a nice white border */
+    margin-bottom: 15px;
+}
+
+/* Project Image Styling */
+.project-img {
+    max-width: 100%; /* Ensures it fits inside the mobile screen */
+    height: auto;
+    border-radius: 8px; /* Slightly rounded corners */
+    margin: 15px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>[Your Name]</h1>
+            <h1>[Jean Paulo Barreto]</h1>
             <p>Biomedical Engineering Professional</p>
         </header>
-
+<img src="profile.jpg" alt="My Profile Picture" class="profile-pic">
+    <h1>[Your Name]</h1>
+    <p>Biomedical Engineering Professional</p>
+</header>
         <div class="section" id="about">
             <h2>About Me</h2>
             <p>I am a Biomedical Engineering student bridging the gap between mechanical design and clinical applications. With hands-on experience in wearable robotics, clinical environments, and hardware integration, I specialize in designing and assessing technologies that improve human health. I am currently a candidate for the Fundamentals of Engineering (FE) certification.</p>
@@ -150,14 +171,14 @@
             <h2>Contact & Links</h2>
             <p>Let's connect. Feel free to reach out via email or view my full professional network.</p>
             <ul class="contact-list">
-                <li>✉️ Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
-                <li>💼 LinkedIn: <a href="#">[Insert Your LinkedIn URL]</a></li>
+                <li>✉️ Email: <a href="mailto:barreto_144256@studenst.pupr.edu">your.email@example.com</a></li>
+                <li>💼 LinkedIn: <a href="#">[www.linkedin.com/in/jean-paulo-barreto-067133333]</a></li>
                 <li>📄 Resume: <a href="#">[Insert Link to PDF Resume]</a></li>
             </ul>
         </div>
 
         <footer>
-            <p>&copy; 2026 [Your Name]. All rights reserved.</p>
+            <p>&copy; 2026 [Jean Paulo Barreto Serrano]. All rights reserved.</p>
         </footer>
     </div>
 </body>
